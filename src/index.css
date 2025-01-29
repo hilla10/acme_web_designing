@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+  --color-red-500: #e8491d;
+  --color-gray-600: #35424a;
+  --font-segoe-ui: 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  @apply max-w-[80%] mx-auto;
+}
+
+.bg-img {
+  background-image: url('./assets/header.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+}
